@@ -1,0 +1,43 @@
+/** @format */
+.home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 200px;
+  gap: 150px;
+  
+}
+.home .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: 15px;
+  box-shadow: 8px 5px rgba(131, 130, 130, 0.392);
+  padding: 2vw;
+}
+
+.home .card img {
+  width: 100%;
+  max-height: 300px;
+}
+.home .card button{
+  cursor: pointer;
+  background-color:  white;
+    color: #333232;
+    border: 1px solid rgb(64 64 64);
+    border-radius: 13px;
+    font-size: 16px;
+    padding: 0.5vw;
+    margin: 0.5vw 0;
+}
+.home .card button:hover{
+  cursor: pointer;
+  background-color: rgb(80, 79, 79);
+    color: white;
+    border: 1px solid rgb(64 64 64);
+    border-radius: 13px;
+    font-size: 16px;
+    padding: 0.5vw;
+    margin: 0.5vw 0;
+}
+
